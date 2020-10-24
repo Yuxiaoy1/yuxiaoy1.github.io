@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>yuxiaoy的主页</title>
+    <title>Yuxiaoy的主页</title>
     <link rel="shortcut icon" href="/static/favicon.png" type="image/png">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" /> -->
     <link href="/static/bootstrap.min.css" rel="stylesheet">
@@ -19,14 +19,16 @@
     </style>
 </head>
 
-<body>
+<body class="container">
+    <!-- header -->
+    <header>
+        <img src="/static/logo-yuxiaoy.png" alt="I'm Yuxiaoy">
+        <a class="ml-5" href="/en/">English</a>
+    </header>
     <!-- main -->
-    <main class="container d-flex flex-column justify-content-center">
-        <div>
-            <img src="/static/logo-yuxiaoy.png" alt="I'm Yuxiaoy">
-            <a class="ml-5" href="/en/">English</a>
-        </div>
+    <main>
         <h2 class="font-weight-bold text-muted mb-4">我是Yuxiaoy，一个Web开发者</h2>
+        <p class="bg-light border-left border-5 border-secondary pl-3 py-2">Stay fool, stay hungry</p>
         <p>独立作品</p>
         <ul>
             <li class="my-1"><a target="_blank" href="https://infohub.fun/">Infohub</a>：一款简洁轻巧的资讯聚合中心</li>
@@ -40,11 +42,14 @@
             </li>
             <li class="my-1">Weibo: <a target="_blank" href="https://weibo.com/u/1802713725/">https://weibo.com/u/1802713725/</a></li>
             <li class="my-1">Twitter: <a target="_blank" href="https://twitter.com/yuxiaoy1/">https://twitter.com/yuxiaoy1/</a></li>
-            <li class="my-1">Email: 1032897296@qq.com</li>
         </ul>
+        <p>如果你想打声招呼，欢迎<a href="mailto:1032897296@qq.com">联系</a>我</p>
     </main>
     <!-- footer -->
-
+    <footer class="mt-3 text-center">
+        <div class="dropdown-divider"></div>
+        <small class="text-muted">YUXIAOY @2020</small>
+    </footer>
 </body>
 
 </html>
